@@ -49,3 +49,4 @@ venv.bak/
 # Project specific
 .gradio_cached_examples/
 flagged/
+me/*.pdf
