@@ -10,7 +10,6 @@ from ui import build_interface
 if __name__ == "__main__":
     interface = build_interface()
     interface.launch(
-        inbrowser=True,
-        share=False,
+        server_name="0.0.0.0",
         allowed_paths=[str(RESUME_PATH.parent)],
     )
